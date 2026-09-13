@@ -1,0 +1,11 @@
+    {
+            "firstname": "Jaanaki",
+            "lastname": "Sahane",
+            "totalprice": 5000,
+            "depositpaid": true,
+            "bookingdates": {
+               "checkin": "2026-09-03",
+               "checkout": "2026-09-05"
+            },
+            "additionalneeds": "super bowls"
+        }

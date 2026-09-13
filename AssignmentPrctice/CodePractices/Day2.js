@@ -1,0 +1,36 @@
+let num = 20;
+let num2 = 10;
+console.log("Arithmatic Operations");
+console.log("Addition: " + (num + num2));
+console.log("Subtraction: " + (num - num2));
+console.log("Multiplication: " + (num * num2));
+console.log("Division: " + (num / num2));      
+console.log("Modulus: " + (num % num2));
+console.log("Exponentiation: " + (num ** num2));
+
+console.log("======Assignment Operations======");
+let a = 10;
+console.log("Initial Value of a: " + a);
+a += 5;
+console.log("After a += 5: " + a);      
+a -= 3;
+console.log("After a -= 3: " + a);
+a *= 2;
+console.log("After a *= 2: " + a);
+a /= 4;
+console.log("After a /= 4: " + a);
+a %= 3;
+console.log("After a %= 3: " + a);
+a **= 2;
+console.log("After a **= 2: " + a); 
+
+console.log("======Comparison Operations======");
+let x = 15;
+let y = 20; 
+console.log("x = " + x + ", y = " + y);
+console.log("x == y: " + (x == y));
+console.log("x != y: " + (x != y));
+console.log("x < y: " + (x < y));
+console.log("x > y: " + (x > y));
+console.log("x <= y: " + (x <= y));
+console.log("x >= y: " + (x >= y) );
