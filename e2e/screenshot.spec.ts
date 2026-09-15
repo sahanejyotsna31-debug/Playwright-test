@@ -9,15 +9,17 @@ test('Screenshot Test', async () => {
         
          await page.goto("https://www.youtube.com/");
        
-
-       await page.locator(".ytSearchboxComponentSearchForm").fill("Playwright");
+      const searchBox = page.getByRole('combobox', { name: 'Search' });
+      await searchBox.fill("Playwright");
 
 // element screenshot
-    //    await page.locator("//span[text()='AI Mode']//parent::div").screenshot({ path: "elementSS.png" });
+       await searchBox.screenshot({ path: "elementSS.png" });
 
 // page Screenshot
           await page.screenshot({ path: "pageSS.png" })
  
           await page.screenshot({ path: "fullPageSS.png", fullPage: true });
+
+       await browser.close();
 
 });
